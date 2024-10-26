@@ -1,0 +1,52 @@
+.nav-desc a img{
+  width: 60px;
+}
+
+.home-bar{
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-desc {
+  display: flex;
+  flex-direction: row;
+}
+ li{
+  list-style: none;
+}
+
+.nav-desc {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  
+  padding: 0;
+  align-items: center;
+}
+
+ a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.3rem;
+  font-family: 'SatoshiRegular';
+  color: rgb(132, 132, 132);
+}
+
+.nav-links button{
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  border-width: 1px;
+}

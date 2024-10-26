@@ -1,0 +1,33 @@
+:root{
+  --fs-xl:1
+}
+
+@font-face{
+  src: url(/Fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf);
+  font-family: SatoshiMedium;
+}
+@font-face{
+  src: url(/Fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+  font-family: SatoshiRegular;
+}
+@font-face{
+  src: url(/Fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf);
+  font-family: SatoshiBold;
+}
+
+body{
+  margin: 106px 0 0 0 ;
+  padding-bottom: 1000px;
+  
+}
+
+p{
+  margin: 0;
+  margin: 0;
+}
+
+.wrapper{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
